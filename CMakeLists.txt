@@ -61,6 +61,7 @@ target_link_libraries(${PROJECT_NAME}
   png
   z
   m
+  freetype
   SceAppMgr_stub
   SceAppUtil_stub
   SceCommonDialog_stub
@@ -69,7 +70,6 @@ target_link_libraries(${PROJECT_NAME}
   SceDisplay_stub
   SceGxm_stub
   ScePower_stub
-  ScePvf_stub
   SceShellSvc_stub
   SceSqlite_stub
   SceSysmodule_stub
